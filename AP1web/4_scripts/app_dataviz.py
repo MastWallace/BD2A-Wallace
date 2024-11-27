@@ -12,7 +12,7 @@ st.sidebar.header("Filtros:")
 
 
 #conexão banco de dados
-conn = 4_scripts/banco.db
+conn = sqlite3.connect("4_scripts/banco.db")
 query = "SELECT * FROM dados;"
 dados_gerais = pd.read_sql_query(query, conn)
 conn.close()
