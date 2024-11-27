@@ -6,4 +6,3 @@ selenium
 missingno
 matplotlib
 seaborn
-sqlite3  # Apenas se necessário
